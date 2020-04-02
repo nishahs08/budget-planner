@@ -1,0 +1,56 @@
+
+.container{
+	width:80%;
+	height: 80vh;
+	margin:auto auto;
+	background-image: linear-gradient(to right bottom,#E0F7FA,#E0F2F1);
+	font-size: 3rem;
+	margin-top:10vh;
+	color: #37474F;
+	border-radius: .5rem;
+	box-shadow: 0 .5rem 3rem rgba(black,.15);
+  position: relative;
+	
+	&--sub{
+		position:absolute;
+		width:80%;
+		height: 50%;
+		top:20%;
+		left:10%;
+		text-align: center;
+	 
+		&__1{
+			padding:2rem;
+
+			span{
+				color:green;
+			}
+		}
+		&__2{
+		
+			width:18rem;
+			border-radius: 2rem;
+			color:rgba(white,.7);
+			margin:auto auto;
+
+			&:active {
+        transform:scale(.93);
+    }
+		}
+	}
+
+
+
+
+}
+
+.sub{
+		background-image: linear-gradient(to right bottom,#ECEFF1,#90A4AE);
+		margin:1px;
+    
+		&:active{
+			transform:0;
+			
+		}
+}
+

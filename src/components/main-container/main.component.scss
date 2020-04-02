@@ -1,0 +1,136 @@
+
+/* width */
+.container--record__row::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.container--record__row::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.container--record__row::-webkit-scrollbar-thumb {
+	
+	background-image: linear-gradient(to right bottom,#ECEFF1,#90A4AE);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.container--record__row::-webkit-scrollbar-thumb:hover {
+  
+}
+
+
+.container{
+	width:80%;
+	height: 80vh;
+	margin:auto auto;
+	background-image: linear-gradient(to right bottom,#E0F7FA,#E0F2F1);
+	font-size: 3rem;
+	margin-top:10vh;
+	color: #37474F;
+	border-radius: .5rem;
+	box-shadow: 0 .5rem 3rem rgba(black,.15);
+  position: relative;
+	
+	&--sub{
+		position:absolute;
+		width:80%;
+		height: 50%;
+		top:20%;
+		left:10%;
+		text-align: center;
+	 
+		&__1{
+			padding:2rem;
+
+			span{
+				color:green;
+			}
+		}
+		&__2{
+		
+			width:18rem;
+			border-radius: 2rem;
+			color:rgba(white,.7);
+			margin:auto auto;
+
+			&:active {
+        transform:scale(.93);
+    }
+		}
+	}
+
+	&--record{
+		display: flex;
+		flex-direction: column;
+		justify-content:space-evenly;
+		padding: 1rem 10rem;
+		text-align: center;
+	  	
+		&__1{
+			padding: 1rem;
+		}
+		&__track {
+			display: flex;
+			justify-content: space-evenly;
+			background-color: pink;
+		}
+		 &__list{
+			display: flex;
+			justify-content:space-evenly;
+			align-items: center;
+			font-size:2rem;
+		
+			background-color: #FAFAFA;
+		
+		div{
+			
+			flex:3;
+			
+		}
+ 		}
+	}
+
+
+}
+.container--record__row{
+	max-height:40vh;
+	overflow-y: scroll;
+
+}
+.expand{
+	font-size:3rem;
+	padding:0px 1rem;
+	margin:0;
+	color:red;
+	
+}
+.expand-1{
+		text-align: left;
+}
+.expand-2{
+	text-align: right;
+	margin-right: 2rem;
+}
+.main{
+		margin-top: 2rem;
+			background-image: linear-gradient(to right bottom,#E8EAF6,#9FA8DA);
+			box-shadow: 0 2px 2px rgba(#BDBDBD,.5);
+			
+		  &:active{
+				transform:scale(.99);
+			} 
+}
+.sub{
+		background-image: linear-gradient(to right bottom,#ECEFF1,#90A4AE);
+		margin:1px;
+    
+		&:active{
+			transform:0;
+			
+		}
+}
+
