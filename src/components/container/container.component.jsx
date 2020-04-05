@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import "./container.styles.scss";
 import {
-	Grid
+	Grid,
+
 } from "@material-ui/core";
+
 import Header from "../header-component/header.component";
 import Chart from "../chart-component/chart.component";
 import Tablecontainer from "../table-container/table.container";
@@ -94,7 +96,7 @@ export default class Container extends Component {
 
 				</Grid>
 
-				<Grid container spacing={1}  style={{
+				<Grid container spacing={1} lg={8} style={{
 					marginTop: "10px", marginBottom: "15px"
 				}}>
 					<Tablecontainer record={this.state.record}></Tablecontainer>

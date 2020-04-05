@@ -37,7 +37,7 @@ export default class Tablecontainer extends Component {
 					elevation={0}
 					style={{ width: "100%", backgroundColor: "transparent" }}
 				>
-					<List record={records}></List>
+					<List groupedRecords={records}></List>
 					
 				</Paper>
 			</div>
