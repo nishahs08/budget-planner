@@ -15,7 +15,7 @@ export default function Transaction(props) {
 			justify="space-between"
 			style={{
 				padding: "5px",
-				backgroundColor: props.index % 2 == 0 ? "#cfd8dc" : "#eceff1",
+				backgroundColor: props.index % 2 === 0 ? "#cfd8dc" : "#eceff1",
 				color: "#37474f"
 			}}
 		>
