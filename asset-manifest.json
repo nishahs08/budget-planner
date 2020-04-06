@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e441b79.chunk.css",
-    "main.js": "/static/js/main.06f83532.chunk.js",
-    "main.js.map": "/static/js/main.06f83532.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.632aca02.js",
-    "runtime-main.js.map": "/static/js/runtime-main.632aca02.js.map",
-    "static/js/2.45f7d9a1.chunk.js": "/static/js/2.45f7d9a1.chunk.js",
-    "static/js/2.45f7d9a1.chunk.js.map": "/static/js/2.45f7d9a1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5a2f4a83e34ecc42f8e3b78e69d9c3a8.js": "/precache-manifest.5a2f4a83e34ecc42f8e3b78e69d9c3a8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0e441b79.chunk.css.map": "/static/css/main.0e441b79.chunk.css.map",
-    "static/js/2.45f7d9a1.chunk.js.LICENSE.txt": "/static/js/2.45f7d9a1.chunk.js.LICENSE.txt"
+    "main.css": "https://nishahs08.github.io/budget-planner/static/css/main.0e441b79.chunk.css",
+    "main.js": "https://nishahs08.github.io/budget-planner/static/js/main.d921abbd.chunk.js",
+    "main.js.map": "https://nishahs08.github.io/budget-planner/static/js/main.d921abbd.chunk.js.map",
+    "runtime-main.js": "https://nishahs08.github.io/budget-planner/static/js/runtime-main.1060d0b5.js",
+    "runtime-main.js.map": "https://nishahs08.github.io/budget-planner/static/js/runtime-main.1060d0b5.js.map",
+    "static/js/2.45f7d9a1.chunk.js": "https://nishahs08.github.io/budget-planner/static/js/2.45f7d9a1.chunk.js",
+    "static/js/2.45f7d9a1.chunk.js.map": "https://nishahs08.github.io/budget-planner/static/js/2.45f7d9a1.chunk.js.map",
+    "index.html": "https://nishahs08.github.io/budget-planner/index.html",
+    "precache-manifest.d59559eac97bd86fcd8296f0ba8b37bc.js": "https://nishahs08.github.io/budget-planner/precache-manifest.d59559eac97bd86fcd8296f0ba8b37bc.js",
+    "service-worker.js": "https://nishahs08.github.io/budget-planner/service-worker.js",
+    "static/css/main.0e441b79.chunk.css.map": "https://nishahs08.github.io/budget-planner/static/css/main.0e441b79.chunk.css.map",
+    "static/js/2.45f7d9a1.chunk.js.LICENSE.txt": "https://nishahs08.github.io/budget-planner/static/js/2.45f7d9a1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.632aca02.js",
+    "static/js/runtime-main.1060d0b5.js",
     "static/js/2.45f7d9a1.chunk.js",
     "static/css/main.0e441b79.chunk.css",
-    "static/js/main.06f83532.chunk.js"
+    "static/js/main.d921abbd.chunk.js"
   ]
 }
