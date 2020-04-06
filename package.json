@@ -48,7 +48,7 @@
     ]
   },
   "devDependencies": {
-    "homepage": "http://nishahs08.github.io/budget-planner",
+    "homepage": "https://nishahs08.github.io/budget-planner",
     "gh-pages": "^2.2.0"
   }
 }
